@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+Most of the variables work fine as `const`. As we have learned, the ones that have to be `let` are the ones that need to change when the program runs, such as the allProducts[] array, and anything that is used to count, like totalClicks and all loop counters.
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+It went great, and yep, I like it better this way. I think the difficulty in typing is similar between the two methods, but the template literal notation is much easier to read.
